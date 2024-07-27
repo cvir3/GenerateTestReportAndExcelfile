@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+
+    <test name="Positive Scenarios">
+        <classes>
+            <class name="webTestScripts.t_NS_Login">
+                <methods>
+                    <include name="Login"/>
+                </methods>
+            </class>
+            <class name="webTestScripts.t_NS_LogOut">
+                <methods>
+                    <include name="Logout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
